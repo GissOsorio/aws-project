@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon backend/index.js",
-    "test": "mocha src/tests/api.test.js",
-    "start": "node server/index.js"
+    "test": "mocha src/tests/api.test.js"
   },
   "keywords": [],
   "author": "",
