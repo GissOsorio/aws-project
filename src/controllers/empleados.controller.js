@@ -1,11 +1,9 @@
 const empleadoCtrl={};
-const Empleado = require('../models/Empleado');
 
 
 empleadoCtrl.getEmpleados = async (req, res) => {
-    const empleados = "Práctica AWS";
+    const empleados = "Welcome Taller";
     res.json(empleados);
-
 };
 
 module.exports=empleadoCtrl;
